@@ -62,7 +62,7 @@ func NewWebhookServerOptions(out, errOut io.Writer, groupName string, solvers ..
 	}
 	o.RecommendedOptions.Etcd = nil
 	o.RecommendedOptions.Admission = nil
-	o.RecommendedOptions.Features.EnablePriorityAndFairness = false
+	// o.RecommendedOptions.Features.EnablePriorityAndFairness = false
 
 	return o
 }
